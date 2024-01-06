@@ -1,0 +1,219 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+.logo {
+    height: 64px;
+    width: 160px;
+    border-radius: 20px;
+    position: absolute;
+    top: 23px ;
+    left: 50px ;
+}
+
+html{
+    height: 100%;
+}
+
+body {
+    position: relative;
+    background-image: url('../image.png'); /* Replace with the correct path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    margin: 0;
+    padding-bottom: 20rem;
+    min-height: 100%;
+    
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(21, 21, 21, 0.824); /* Adjust the opacity (last value) for the dark overlay */
+    z-index: -1; /* Place the overlay behind content */
+}
+
+h1 {
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    width: 20%;
+    background-color: #A2D981;
+    border-radius: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    
+    
+    
+}
+
+.top-title {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: medium;
+}
+
+nav{
+    text-align: center;
+    margin-top: 0px;
+    font-size: large;
+    padding: auto;
+    
+    
+}
+
+nav ul {
+    list-style: flex;
+    padding: 0;
+    display: flex;
+    background-color: #A2D981;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin:center;
+    display: inline-block;
+    margin-top: 30px;
+    width: 100%;
+    
+    
+}
+
+nav li {
+    margin-right: 30px;
+    display: inline;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+p{
+    font-size: 20px ;
+    font-family: 'Roboto', sans-serif;;
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(54, 169, 54);
+}
+
+
+h4.about-us__title {
+    text-align: center;
+    font-family:'Roboto', sans-serif;
+    font-size: large;
+    background-color: #A2D981;
+    padding: 14px;
+    border-radius: 12px;
+    width: 15%;
+    margin: auto;
+    animation: fadeInUp 2s ease forwards;
+    
+
+}
+
+p.description-aboutus {
+    text-align: center;
+    width: 70%;
+    margin: 40px auto ;
+    margin-bottom: 40px;
+    background-color: #A2D981;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2;
+    font-size: large;
+    font-weight: 600;
+    padding: 20px;
+    border-radius: 12px;
+    background-size: 100%;
+    animation: fadeInUp 2s ease forwards;
+
+}
+
+
+
+
+
+
+footer {
+
+    padding: 35px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+
+
+    background-color: #A2D981;
+    color:black;
+    text-align: left;
+    transition: bottom 0.3s ease;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.footer_title{
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+   
+}
+
+/* Dorm room workouts */
+
+
+.workout-types {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    width: 95%;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+
+
+
+}
+
+.workout__split{
+    background-color: #A2D981;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    animation: fadeInUp 2s ease forwards;
+
+
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+hr {
+
+    border: none;
+    height: 1px;
+    background-color: black;
+}
+ 
+
+
+
+
+
+
